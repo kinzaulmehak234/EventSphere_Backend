@@ -26,7 +26,7 @@ mongoose.connect(MONGODB_URI)
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://event-sphere-frontend-nu.vercel.app/",
   credentials: true
 }));
 app.use(express.json());
